@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI That Never Sleeps — $2.88/mo VPS | Vincen AGentic</title>
+<meta name="description" content="Keep your AI agent running 24/7 without your laptop. Express Linux VPS from DatabaseMart — 4GB RAM, 2 cores, 60GB SSD, $2.88/mo. Set it up tonight, wake up to finished work.">
+<style>
+  :root{
+    --teal:#0E3B44; --teal2:#14424B; --teal-deep:#0B2F36;
+    --cream:#F3ECDD; --terra:#C96A45; --terra-bright:#E07A50;
+    --good:#5BB98C;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--teal-deep);color:var(--cream);line-height:1.6}
+  a{color:var(--terra-bright)}
+  .wrap{max-width:880px;margin:0 auto;padding:0 22px}
+
+  /* HERO */
+  header{background:linear-gradient(160deg,var(--teal) 0%,var(--teal-deep) 100%);padding:64px 0 48px;text-align:center;position:relative;overflow:hidden}
+  header::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(224,122,80,.12),transparent 60%)}
+  .badge{display:inline-block;border:1px solid var(--terra);color:var(--terra-bright);font-size:12px;letter-spacing:3px;padding:6px 16px;border-radius:20px;margin-bottom:22px;text-transform:uppercase}
+  h1{font-size:clamp(30px,6vw,52px);font-weight:800;line-height:1.15;margin-bottom:14px}
+  h1 .amber{color:var(--terra-bright)}
+  .sub{font-size:clamp(15px,2.4vw,19px);color:#bfd8d9;max-width:600px;margin:0 auto 30px}
+  .cta{display:inline-block;background:var(--terra);color:#fff;font-size:18px;font-weight:700;padding:16px 42px;border-radius:12px;text-decoration:none;box-shadow:0 6px 24px rgba(201,106,69,.4);transition:transform .15s,box-shadow .15s}
+  .cta:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(201,106,69,.55)}
+  .note{font-size:13px;color:#8fb3b5;margin-top:12px}
+
+  /* PROOF STRIP */
+  .strip{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:34px auto 0}
+  .chip{background:rgba(243,236,221,.07);border:1px solid rgba(243,236,221,.15);border-radius:10px;padding:10px 18px;font-size:14px;color:var(--cream)}
+  .chip b{color:var(--terra-bright)}
+
+  /* SECTIONS */
+  section{padding:56px 0}
+  .kicker{font-size:12px;letter-spacing:3px;color:var(--terra-bright);text-transform:uppercase;margin-bottom:10px;font-weight:700}
+  h2{font-size:clamp(22px,4vw,32px);margin-bottom:18px}
+  p.lead{color:#cfe3e4;font-size:16px;max-width:640px}
+
+  /* STORY */
+  .story{display:grid;gap:16px;grid-template-columns:1fr 1fr}
+  @media(max-width:680px){.story{grid-template-columns:1fr}}
+  .card{background:var(--teal2);border:1px solid rgba(243,236,221,.1);border-radius:14px;padding:22px}
+  .card h3{font-size:17px;margin-bottom:8px}
+  .card p{font-size:14px;color:#a9c8c9}
+  .card.bad{border-left:3px solid #d66}
+  .card.good{border-left:3px solid var(--good)}
+
+  /* STEPS */
+  .steps{counter-reset:step;margin-top:8px}
+  .step{display:flex;gap:16px;align-items:flex-start;margin-bottom:20px}
+  .step::before{counter-increment:step;content:counter(step);background:var(--terra);color:#fff;font-weight:800;width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:16px}
+  .step div h3{font-size:16px;margin-bottom:4px}
+  .step div p{font-size:14px;color:#a9c8c9}
+  .step code{background:rgba(0,0,0,.35);border:1px solid rgba(243,236,221,.12);padding:2px 8px;border-radius:6px;font-size:13px;color:#ffd9c4;word-break:break-all}
+
+  /* TABLE */
+  table{width:100%;border-collapse:collapse;margin-top:10px;font-size:14px}
+  th,td{padding:12px 14px;text-align:left;border-bottom:1px solid rgba(243,236,221,.1)}
+  th{color:var(--terra-bright);font-size:12px;letter-spacing:1.5px;text-transform:uppercase}
+  td b{color:var(--terra-bright)}
+  .hi{background:rgba(201,106,69,.12)}
+  .hi td:first-child::after{content:'★ pick';color:var(--terra-bright);font-size:11px;margin-left:8px}
+
+  /* HONESTY */
+  .honest{background:rgba(214,102,102,.08);border:1px solid rgba(214,102,102,.25);border-radius:14px;padding:22px;margin-top:8px}
+  .honest h3{color:#e8a0a0;font-size:16px;margin-bottom:10px}
+  .honest li{font-size:14px;color:#c8d8d8;margin-left:20px;margin-bottom:6px}
+
+  /* FINAL CTA */
+  .final{text-align:center;background:linear-gradient(160deg,var(--teal) 0%,var(--teal-deep) 100%);border:1px solid rgba(243,236,221,.1);border-radius:18px;padding:48px 26px;margin:20px 0 60px}
+  .final h2{margin-bottom:10px}
+  .final .price{font-size:clamp(40px,8vw,64px);font-weight:800;color:var(--terra-bright);margin:8px 0}
+  .final .price span{font-size:18px;color:#bfd8d9;font-weight:400}
+  .final ul{list-style:none;margin:16px 0 26px;font-size:14px;color:#cfe3e4}
+  .final li{margin:5px 0}
+  .final li::before{content:'✓ ';color:var(--good)}
+
+  footer{text-align:center;padding:26px 0 40px;font-size:12px;color:#6d9194}
+  footer a{color:#8fb3b5}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="badge">For AI Agent Owners</div>
+    <h1>Your AI agent dies the second<br>you <span class="amber">close your laptop.</span></h1>
+    <p class="sub">Move it to a $2.88/month VPS. It runs 24/7 — cron jobs, market watches, Telegram reports — while you sleep.</p>
+    <a class="cta" href="https://www.databasemart.com/vps-hosting/linux?aff_id=798a711665dd404c94ae1ba71d987c0e" rel="nofollow sponsored">Get the $2.88 VPS →</a>
+    <p class="note">Deploy in under 10 minutes · No setup fee · Cancel anytime</p>
+    <div class="strip">
+      <div class="chip"><b>4GB</b> RAM</div>
+      <div class="chip"><b>2</b> vCPU</div>
+      <div class="chip"><b>60GB</b> SSD</div>
+      <div class="chip"><b>100Mbps</b> unmetered</div>
+      <div class="chip"><b>99.9%</b> uptime</div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section>
+    <div class="kicker">The Problem</div>
+    <h2>Two ways to kill your AI agent</h2>
+    <div class="story">
+      <div class="card bad">
+        <h3>❌ The laptop trap</h3>
+        <p>Your agent lives on your laptop. Close the lid — cron jobs stop, automations die, Telegram goes silent. Your "24/7 assistant" works 4 hours a day.</p>
+      </div>
+      <div class="card bad">
+        <h3>💸 The big-cloud tax</h3>
+        <p>Name-brand cloud for a lightweight agent: $30–50/month. You're paying coffee-shop prices for a machine that mostly idles.</p>
+      </div>
+      <div class="card good" style="grid-column:1/-1">
+        <h3>✅ The fix: a cheap VPS that never sleeps</h3>
+        <p>A $2.88/month Linux VPS runs your agent headless — it doesn't care whether your laptop is open, closed, or in another country. One SSH command and your agent lives on the internet.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="kicker">The Setup</div>
+    <h2>Live in 4 steps — one coffee</h2>
+    <div class="steps">
+      <div class="step"><div>
+        <h3>Create the VPS</h3>
+        <p>Pick <b>Express Linux VPS</b> ($2.88/mo), choose Ubuntu 22.04, done in under 10 minutes.</p>
+      </div></div>
+      <div class="step"><div>
+        <h3>SSH in</h3>
+        <p><code>ssh root@your-vps-ip</code> — that's the whole ritual.</p>
+      </div></div>
+      <div class="step"><div>
+        <h3>Install your agent</h3>
+        <p>One install command (Hermes Agent, OpenClaw, n8n, a Telegram bot — anything that runs on Linux).</p>
+      </div></div>
+      <div class="step"><div>
+        <h3>Point your jobs at it</h3>
+        <p><code>crontab -e</code> → your daily digest at 6:00, your market scan at 9:00. Now the agent works while you sleep — and messages you the results.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="kicker">The Plans</div>
+    <h2>Pick your size</h2>
+    <p class="lead" style="margin-bottom:14px">All plans: US data centers, US IPs, unmetered bandwidth, no setup fee.</p>
+    <table>
+      <tr><th>Plan</th><th>RAM</th><th>CPU</th><th>SSD</th><th>Price</th></tr>
+      <tr class="hi"><td><b>Express</b> — for 1–2 agents</td><td>4GB</td><td>2</td><td>60GB</td><td><b>$2.88</b>/mo</td></tr>
+      <tr><td>Basic — heavier automations</td><td>8GB</td><td>4</td><td>140GB</td><td>$5.85/mo</td></tr>
+      <tr><td>Pro — many agents + databases</td><td>18GB</td><td>8</td><td>240GB</td><td>$10.80/mo</td></tr>
+    </table>
+    <p style="font-size:12px;color:#7ea6a8;margin-top:10px">Promo prices seen Sept 2026 (Express was $5.99). Check current pricing on the order page.</p>
+  </section>
+
+  <section>
+    <div class="kicker">Honest Talk</div>
+    <h2>What it won't do</h2>
+    <div class="honest">
+      <h3>Read this before buying</h3>
+      <ul>
+        <li>It's a budget VPS — <b>not for training models or video rendering</b>.</li>
+        <li>Peak hours can feel a bit slow. For agents + cron, irrelevant.</li>
+        <li>Support is ticket-based, not live chat.</li>
+        <li>But for the one job that matters — <b>keeping your agent alive 24/7</b> — it's exactly right.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="final">
+    <div class="kicker">The Math</div>
+    <h2>Cheaper than your coffee</h2>
+    <div class="price">$0.09<span> / day</span></div>
+    <ul>
+      <li>4GB RAM · 2 vCPU · 60GB SSD</li>
+      <li>99.9% uptime · US data centers</li>
+      <li>Deploy in under 10 minutes</li>
+      <li>Your agent, awake forever</li>
+    </ul>
+    <a class="cta" href="https://www.databasemart.com/vps-hosting/linux?aff_id=798a711665dd404c94ae1ba71d987c0e" rel="nofollow sponsored">Set it up tonight →</a>
+    <p class="note">Wake up to finished work.</p>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    Built by <a href="https://www.sivvong.agency">Vincen AGentic</a> · Affiliate disclosure: we earn a commission on orders through links on this page, at no extra cost to you. Prices verified Sept 2026.
+  </div>
+</footer>
+
+</body>
+</html>
