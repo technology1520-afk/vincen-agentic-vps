@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- V monogram: two SEPARATE ribbon strokes with a full-length diagonal gap -->
+  <!-- left arm: parallel diagonal band, angled cut at bottom -->
+  <polygon points="14,8 66,8 96,140 74,152" fill="#F3ECDD"/>
+  <!-- right arm: wider band, slightly right, full drop to vertex -->
+  <polygon points="84,8 186,8 118,178 104,148" fill="#F3ECDD"/>
+</svg>
